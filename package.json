@@ -1,0 +1,55 @@
+{
+  "name": "express-project-scaffolder",
+  "version": "1.1.1",
+  "description": "Interactive CLI tool to scaffold Express.js projects with TypeScript/JavaScript support, JWT authentication, and scalable folder structure",
+  "main": "index.js",
+  "bin": {
+    "express-project-scaffolder": "bin/create-express-project.js",
+    "create-express-app": "bin/create-express-project.js",
+    "express-quick": "bin/express-quick-setup.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "echo \"Ready to publish!\""
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "typescript",
+    "javascript",
+    "cli",
+    "generator",
+    "scaffold",
+    "boilerplate",
+    "project-generator",
+    "express-generator",
+    "backend",
+    "api",
+    "server",
+    "scaffolding",
+    "jwt",
+    "authentication",
+    "bcrypt",
+    "middleware",
+    "scalable",
+    "professional"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/express-project-scaffolder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/express-project-scaffolder/issues"
+  },
+  "homepage": "https://github.com/yourusername/express-project-scaffolder#readme",
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ]
+}
