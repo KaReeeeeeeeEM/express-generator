@@ -25,20 +25,6 @@ An interactive CLI tool that creates production-ready Express.js backend project
 npx express-project-scaffolder
 ```
 
-### Global Installation
-```bash
-npm install -g express-project-scaffolder
-```
-
-### Usage
-```bash
-# Full-featured generator
-create-express-app
-
-# Quick minimal setup
-express-quick
-```
-
 ## 📁 Generated Project Structure
 
 ```
