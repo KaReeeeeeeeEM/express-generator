@@ -21,7 +21,6 @@ An interactive CLI tool that creates production-ready Express.js backend project
 ## 🚀 Quick Start
 
 ### One-time Usage (without installation, Recommended ✅)
-
 ```bash
 npx express-project-scaffolder
 ```
