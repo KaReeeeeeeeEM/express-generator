@@ -20,21 +20,8 @@ An interactive CLI tool that creates production-ready Express.js backend project
 
 ## 🚀 Quick Start
 
-### Global Installation (Recommended)
-```bash
-npm install -g express-project-scaffolder
-```
+### One-time Usage (without installation, Recommended ✅)
 
-### Usage
-```bash
-# Full-featured generator
-create-express-app
-
-# Quick minimal setup
-express-quick
-```
-
-### One-time Usage (without installation)
 ```bash
 npx express-project-scaffolder
 ```
@@ -72,6 +59,7 @@ your-awesome-api/
 ## 🎨 What You Get
 
 ### 🔧 Pre-configured Tools
+
 - **Express.js** - Fast, minimalist web framework
 - **TypeScript** - Type safety and modern JavaScript features
 - **JWT Authentication** - Complete auth system with jsonwebtoken
@@ -82,6 +70,7 @@ your-awesome-api/
 - **Environment Variables** - Secure configuration management
 
 ### 📋 Ready-to-Use Scripts
+
 ```json
 {
   "scripts": {
@@ -93,6 +82,7 @@ your-awesome-api/
 ```
 
 ### 🎯 Example API Endpoints
+
 - `GET /` - Welcome message with timestamp
 - `GET /api/health` - Health check endpoint
 - `POST /api/auth/register` - User registration with JWT
@@ -115,6 +105,7 @@ The CLI will guide you through:
 ## 🔥 Usage Examples
 
 ### Basic Workflow
+
 ```bash
 # Create new project
 create-express-app
@@ -134,6 +125,7 @@ npm run dev
 ```
 
 ### Generated TypeScript Project
+
 ```typescript
 import express from 'express';
 import type { Request, Response } from 'express';
@@ -173,6 +165,7 @@ app.listen(PORT, () => {
 ## 🔧 Advanced Features
 
 ### Environment Configuration
+
 ```env
 PORT=3000
 NODE_ENV=development
@@ -192,12 +185,14 @@ DB_PASSWORD=password
 ```
 
 ### TypeScript Configuration
+
 - Strict type checking enabled
 - ES2020 target for modern features
 - Source maps for debugging
 - Declaration files for libraries
 
 ### Development Experience
+
 - Hot reload with Nodemon
 - Instant TypeScript compilation
 - Comprehensive error reporting
@@ -206,6 +201,7 @@ DB_PASSWORD=password
 ## 📦 Dependencies Included
 
 ### Core Runtime
+
 - **express** - Web application framework
 - **cors** - Enable cross-origin requests
 - **dotenv** - Environment variable management
@@ -213,6 +209,7 @@ DB_PASSWORD=password
 - **bcryptjs** - Password hashing and validation
 
 ### TypeScript Development
+
 - **typescript** - TypeScript compiler
 - **ts-node** - TypeScript execution engine
 - **@types/node** - Node.js type definitions
@@ -245,6 +242,7 @@ npm start
 ## 🤝 Contributing
 
 We welcome contributions! Feel free to:
+
 - Report bugs
 - Suggest new features
 - Submit pull requests
