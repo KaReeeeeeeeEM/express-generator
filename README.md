@@ -20,7 +20,12 @@ An interactive CLI tool that creates production-ready Express.js backend project
 
 ## 🚀 Quick Start
 
-### Global Installation (Recommended)
+### One-time Usage (without installation, Recommended ✅)
+```bash
+npx express-project-scaffolder
+```
+
+### Global Installation
 ```bash
 npm install -g express-project-scaffolder
 ```
@@ -32,11 +37,6 @@ create-express-app
 
 # Quick minimal setup
 express-quick
-```
-
-### One-time Usage (without installation)
-```bash
-npx express-project-scaffolder
 ```
 
 ## 📁 Generated Project Structure
